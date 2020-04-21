@@ -28,6 +28,16 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+				<cloudHubDeployment>
+				<username>biswaptl05</username>
+				<password>HelloUS11!</password>
+				<environment>Sandbox</environment>
+				<workers>1</workers>
+				<workerType>Micro</workerType>
+				<muleVersion>4.2.2</muleVersion>
+				<applicationName>BiswaworldTimezoneAPI</applicationName>
+				<objectStoreV2>true</objectStoreV2>
+				</cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
